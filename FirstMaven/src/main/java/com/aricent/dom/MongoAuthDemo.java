@@ -13,7 +13,7 @@ public class MongoAuthDemo {
 		// TODO Auto-generated method stub
 
 		System.out.println("Inside the MongoDB Authenication Suresh Maram....");
-		System.out.println("Inside Suresh Maram");
+		System.out.println("Inside Suresh Maram123");
 		MongoClient mongoClient = null;
 		MongoCredential mongoCredential = MongoCredential.createScramSha1Credential("suresh", "customer",
 				"suresh".toCharArray());
