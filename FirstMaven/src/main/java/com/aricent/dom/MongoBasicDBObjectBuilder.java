@@ -31,7 +31,7 @@ public class MongoBasicDBObjectBuilder {
 			System.out.println(cursorDoc.next());
 		}
 		long count = collection.count();
-		System.out.println("Number of record in customers collection is " + count);
+		System.out.println("Number of record in customers collection is ==" + count);
 		mongo.close();
 	}
 

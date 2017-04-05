@@ -21,17 +21,17 @@ public class MongoRemoveObject {
 			collection.insert(new BasicDBObject().append("empId", i).append("salary", i+1000));
 		}
 
-		/*
+		/*==
 		 * Long count = collection.count(); System.out.println(
 		 * "Before Removing the Entries ... "+count); System.out.println(
 		 * "Removing the elements......"); BasicDBObject document = new
 		 * BasicDBObject(); document.put("empId", 10001);
 		 * 
 		 * collection.remove(document); System.out.println(
-		 * "After Removing the Entries ... "+count);
-		 */
+		 * "After Removing the Entries ... "+count); */
+		 
 
-		mongo.close();
+		mongo.close(); 
 	}
 
 }

@@ -26,7 +26,7 @@ public class MongoDBJSON {
 			System.out.println(cursorDocJSON.next());
 		}
 		long count = collection.count();
-		System.out.println("Number of records in the collection is " + count);
+		System.out.println("Number of records in the collection is ==" + count);
 		Long end_time = System.currentTimeMillis();
 		long tot = (end_time - start_time) / 1000;
 		System.out.println("Time taken is" + tot);

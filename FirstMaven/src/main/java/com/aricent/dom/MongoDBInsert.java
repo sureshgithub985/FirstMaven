@@ -28,7 +28,7 @@ public class MongoDBInsert {
 
 		// BasicDBObject example
 		System.out.println("BasicDBObject example.........");
-	/*	BasicDBObject document = new BasicDBObject();
+		BasicDBObject document = new BasicDBObject();
 		document.put("database", "customer");
 		document.put("table", "customers");
 
@@ -43,7 +43,7 @@ public class MongoDBInsert {
 			System.out.println(cursdoc.next());
 		}
 		long count = collection.count();
-		System.out.println("Number of records in Customers table is "+count);*/
+		System.out.println("Number of records in Customers table is "+count);
 		collection.remove(new BasicDBObject());
 		mongo.close();
 	}
